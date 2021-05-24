@@ -7,7 +7,7 @@
 #
 #
 ## Copas file installer berikut di terminal openwrt:
-# wget -O installer https://raw.githubusercontent.com/ryanfauzi1/remote_openwrt/main/installer && chmod +x installer && ./installer
+# wget -O installer https://raw.githubusercontent.com/BM-TechID/RC_OpenWRT/main/installer && chmod +x installer && ./installer
 #
 #
 # untuk log url dll, ketik:
@@ -24,5 +24,11 @@ xderm: http://xxxxxxx.localhost.run/xderm
 
 luci: http://xxxxxxx.localhost.run/cgi-bin/luci
 
+
 atau lebih tepatnya ip 192.168.x.x ganti menjadi xxxxxxx.localhost.run dilanjut dengan tools yang akan di gunakan.
+
+#
+#
+# Thanks To mbah Ryanfauzi1
+## Source asli: https://github.com/ryanfauzi1/remote_openwrt
 
