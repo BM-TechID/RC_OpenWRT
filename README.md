@@ -14,9 +14,12 @@
 #
 # Jika tidak muncul linkya, bisa dengan cara ini:
 - cd root && cat logremote.txt
-
+#
+#
 Link: http://xxxxxxx.localhost.run
+
 xderm: http://xxxxxxx.localhost.run/xderm 
+
 luci: http://xxxxxxx.localhost.run/cgi-bin/luci
 
 atau lebih tepatnya ip 192.168.x.x ganti menjadi xxxxxxx.localhost.run dilanjut dengan tools yang akan di gunakan.
