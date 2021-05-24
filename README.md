@@ -1,8 +1,9 @@
-# remote_openwrt (mod by BM-TechID)
+# RC_OpenWRT { Remote Control OpenWRT } Modded by BM-TechID
 ![image.png](https://raw.githubusercontent.com/BM-TechID/remote_openwrt/main/Screenshot.jpg)
 ### Fitur:
 - sudah inclued auto start on boot.
 - langsung garcep.
+- langsung konek "no kaleng-kaleng"
 #
 #
 ## Copas file installer berikut di terminal openwrt:
