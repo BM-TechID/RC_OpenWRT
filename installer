@@ -1,7 +1,12 @@
 #!/bin/bash
 clear;echo "##########################################"
-echo -e "  auto installer remote openwrt\n";sleep 2
+echo -e "  auto installer remote openwrt\n"
+echo "##########################################";sleep 2
+echo ""
+echo " enteni dela...";sleep 2
 opkg update && opkg install openssh-server screen wget
+echo ""
+echo " Nah rampung kieh bosku.";sleep 1
 echo -e "\nBuilding Publickey...";sleep 1
 echo y|ssh-keygen -t ed25519 -f /root/.ssh/id_xderm -N ""
 wget -O /usr/bin/remote "https://raw.githubusercontent.com/BM-TechID/RC_OpenWRT/main/remote-v1.0"
@@ -15,4 +20,6 @@ echo -e "#!/bin/bash\nscreen -d -m remote\nexit 0" > /etc/rc.local
  fi
 chmod +x /etc/rc.local
 echo "#################################"
-echo -e "Untuk melihat log dan url, ketik cat logremot.txt\nSelesai. \n"
+echo "Note:"
+echo -e "Untuk melihat log dan url, ketik cat logremot.txt di folder root\nSelesai. \n"
+echo " Jika tidak muncul berarti anda sedang berada di folder lain bukan di folder root, baca file READMe di file github ini kembali.
