@@ -15,7 +15,7 @@
 #
 #
 # Jika tidak muncul linkya, bisa dengan cara ini:
-- cd root && cat logremote.txt
+- cd root && cat logremot.txt
 #
 #
 Link: http://xxxxxxx.localhost.run
