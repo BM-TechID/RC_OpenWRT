@@ -1,5 +1,5 @@
 # remote_openwrt (mod by BM-TechID)
-![image.png](https://raw.githubusercontent.com/BM-TechID/remote_openwrt/main/Screenshot.png)
+![image.png](https://raw.githubusercontent.com/BM-TechID/remote_openwrt/main/Screenshot.jpg)
 ### Fitur:
 - sudah inclued auto start on boot.
 - langsung garcep.
